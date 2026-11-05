@@ -12,8 +12,9 @@ Leyenda del mapa:
     S  salida  (debe haber exactamente una)
     G  meta    (debe haber exactamente una)
 
-Ejecutar desde la raíz del repositorio:
-    python pruebas/04_planificador_ruta/ruta.py
+Cómo ejecutarlo:
+    - En VS Code: abre este archivo y pulsa el botón ▶ (Run Python File).
+    - O desde una terminal en la carpeta del repositorio:  py pruebas\04_planificador_ruta\ruta.py
 """
 
 import heapq

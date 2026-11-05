@@ -1,6 +1,9 @@
 # Normaliza los finales de línea (Windows CRLF vs Linux/Mac LF)
 * text=auto
 
+# Los .bat de Windows necesitan finales de linea CRLF
+*.bat text eol=crlf
+
 # Archivos binarios: git no debe intentar mezclarlos
 *.png binary
 *.jpg binary

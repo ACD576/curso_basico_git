@@ -6,8 +6,9 @@ Simula un robot que tiene que avanzar exactamente DISTANCIA_OBJETIVO metros
 usando un controlador PID. Se comparan varios ajustes de ganancias y se
 calculan sus métricas (sobreoscilación, tiempo de establecimiento, error final).
 
-Ejecutar desde la raíz del repositorio:
-    python pruebas/05_control_pid/pid.py
+Cómo ejecutarlo:
+    - En VS Code: abre este archivo y pulsa el botón ▶ (Run Python File).
+    - O desde una terminal en la carpeta del repositorio:  py pruebas\05_control_pid\pid.py
 """
 
 import sys

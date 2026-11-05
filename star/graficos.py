@@ -7,7 +7,7 @@ Utilidades de dibujo compartidas por todas las pruebas.
 Si ejecutas cualquier prueba con la opción --show, además de guardar
 la imagen se abrirá una ventana para verla:
 
-    python pruebas/01_trayectoria/trayectoria.py --show
+    py pruebas\01_trayectoria\trayectoria.py --show
 """
 
 import sys

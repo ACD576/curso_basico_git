@@ -3,9 +3,8 @@
 El robot debe avanzar 1 m exactos. Se comparan varios ajustes `(Kp, Ki, Kd)` y se calculan
 sobreoscilación, tiempo de establecimiento y error final.
 
-```bash
-python pruebas/05_control_pid/pid.py
-```
+Para ejecutarlo, abre `pid.py` en VS Code y pulsa ▶ *Run Python File*.
+La imagen aparece en la carpeta `output/`.
 
 **Qué tocar:** el diccionario `AJUSTES` (añade tu ajuste en una línea nueva) y los parámetros físicos.
 

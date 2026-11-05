@@ -9,8 +9,9 @@ archivos y dibuja una galería con todos los robots del equipo.
 Como cada persona toca un archivo distinto, es la prueba ideal para
 practicar ramas y Pull Requests sin conflictos.
 
-Ejecutar desde la raíz del repositorio:
-    python pruebas/06_galeria_robots/galeria.py
+Cómo ejecutarlo:
+    - En VS Code: abre este archivo y pulsa el botón ▶ (Run Python File).
+    - O desde una terminal en la carpeta del repositorio:  py pruebas\06_galeria_robots\galeria.py
 """
 
 import json

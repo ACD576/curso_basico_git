@@ -2,9 +2,8 @@
 
 El robot lanza rayos láser en una sala con obstáculos. A la izquierda el mapa, a la derecha lo que "ve" el sensor.
 
-```bash
-python pruebas/03_sensor_lidar/lidar.py
-```
+Para ejecutarlo, abre `lidar.py` en VS Code y pulsa ▶ *Run Python File*.
+La imagen aparece en la carpeta `output/`.
 
 **Qué tocar:** `OBSTACULOS_CIRCULARES`, `OBSTACULOS_CAJA`, `POSICION_ROBOT`, `NUM_RAYOS`, `ALCANCE_MAX`, `RUIDO`.
 

@@ -2,9 +2,8 @@
 
 Cada participante añade **su propio archivo** en `participantes/` y el script dibuja una galería con todos.
 
-```bash
-python pruebas/06_galeria_robots/galeria.py
-```
+Para ejecutarlo, abre `galeria.py` en VS Code y pulsa ▶ *Run Python File*.
+La imagen aparece en la carpeta `output/`.
 
 **Qué tocar:** crea `participantes/<tu-usuario>.json` copiando `_plantilla.json`
 (más detalles en [participantes/README.md](participantes/README.md)).

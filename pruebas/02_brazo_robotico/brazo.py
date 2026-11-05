@@ -6,8 +6,9 @@ Dibuja un brazo plano de dos eslabones en varias posturas (cinemática
 directa), su espacio de trabajo y, si se define un OBJETIVO, las dos
 soluciones de cinemática inversa (codo arriba / codo abajo) para alcanzarlo.
 
-Ejecutar desde la raíz del repositorio:
-    python pruebas/02_brazo_robotico/brazo.py
+Cómo ejecutarlo:
+    - En VS Code: abre este archivo y pulsa el botón ▶ (Run Python File).
+    - O desde una terminal en la carpeta del repositorio:  py pruebas\02_brazo_robotico\brazo.py
 """
 
 import sys

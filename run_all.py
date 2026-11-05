@@ -1,7 +1,8 @@
 """
 Ejecuta todas las pruebas y guarda las imágenes en la carpeta output/.
 
-    python run_all.py
+En Windows basta con hacer doble clic en ejecutar_todo.bat
+(o abrir este archivo en VS Code y pulsar ▶).
 
 Devuelve un código de error si alguna prueba falla (lo usa GitHub Actions).
 """

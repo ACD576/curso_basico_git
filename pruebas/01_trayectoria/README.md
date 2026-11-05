@@ -3,9 +3,8 @@
 El robot ejecuta una lista de órdenes `(v, w, duración)` y se dibuja su camino.
 Por defecto dibuja una **estrella**.
 
-```bash
-python pruebas/01_trayectoria/trayectoria.py
-```
+Para ejecutarlo, abre `trayectoria.py` en VS Code y pulsa ▶ *Run Python File*.
+La imagen aparece en la carpeta `output/`.
 
 **Qué tocar:** la lista `PROGRAMA` (y `LADO`, `POSICION_INICIAL`).
 

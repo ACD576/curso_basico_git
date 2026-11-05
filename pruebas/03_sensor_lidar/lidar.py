@@ -6,8 +6,9 @@ El robot está dentro de una habitación con obstáculos y lanza rayos láser
 en todas direcciones. Se dibuja el mapa con los rayos y, a la derecha,
 la lectura del sensor en coordenadas polares (lo que "ve" el robot).
 
-Ejecutar desde la raíz del repositorio:
-    python pruebas/03_sensor_lidar/lidar.py
+Cómo ejecutarlo:
+    - En VS Code: abre este archivo y pulsa el botón ▶ (Run Python File).
+    - O desde una terminal en la carpeta del repositorio:  py pruebas\03_sensor_lidar\lidar.py
 """
 
 import sys

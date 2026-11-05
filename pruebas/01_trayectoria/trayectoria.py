@@ -6,8 +6,9 @@ El robot recibe una lista de órdenes (velocidad lineal, velocidad angular,
 duración) y se dibuja el camino que recorre. Con el programa por defecto
 dibuja una estrella (¡STAR!).
 
-Ejecutar desde la raíz del repositorio:
-    python pruebas/01_trayectoria/trayectoria.py
+Cómo ejecutarlo:
+    - En VS Code: abre este archivo y pulsa el botón ▶ (Run Python File).
+    - O desde una terminal en la carpeta del repositorio:  py pruebas\01_trayectoria\trayectoria.py
 """
 
 import sys
