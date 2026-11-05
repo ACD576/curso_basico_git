@@ -1,0 +1,10 @@
+{
+  "nombre": "Tu nombre",
+  "robot": "Nombre de tu robot",
+  "color": "#3498DB",
+  "forma": "cuadrado",
+  "ojos": 2,
+  "antena": true,
+  "traccion": "ruedas",
+  "lema": "Una frase corta (máx. 40)"
+}

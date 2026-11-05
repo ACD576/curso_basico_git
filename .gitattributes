@@ -1,0 +1,7 @@
+# Normaliza los finales de línea (Windows CRLF vs Linux/Mac LF)
+* text=auto
+
+# Archivos binarios: git no debe intentar mezclarlos
+*.png binary
+*.jpg binary
+*.pdf binary

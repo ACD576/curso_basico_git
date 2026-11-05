@@ -1,0 +1,10 @@
+{
+  "nombre": "Equipo STAR",
+  "robot": "R2-STAR",
+  "color": "#0B5FA5",
+  "forma": "hexagono",
+  "ojos": 2,
+  "antena": true,
+  "traccion": "orugas",
+  "lema": "Commit a commit"
+}

@@ -1,0 +1,42 @@
+# ------------------------------------------------------------
+#  Resultados generados por los scripts (se pueden regenerar)
+# ------------------------------------------------------------
+output/
+
+# ------------------------------------------------------------
+#  Guía del curso en LaTeX (solo para el instructor)
+# ------------------------------------------------------------
+guia/
+
+# Archivos auxiliares de LaTeX (por si se compila en otro sitio)
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+
+# ------------------------------------------------------------
+#  Python
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ------------------------------------------------------------
+#  Editores y sistema operativo
+# ------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
