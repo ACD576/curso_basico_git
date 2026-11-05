@@ -8,7 +8,7 @@ dibuja una estrella (¡STAR!).
 
 Cómo ejecutarlo:
     - En VS Code: abre este archivo y pulsa el botón ▶ (Run Python File).
-    - O desde una terminal en la carpeta del repositorio:  py pruebas\01_trayectoria\trayectoria.py
+    - O desde una terminal en la carpeta del repositorio:  py pruebas/01_trayectoria/trayectoria.py
 """
 
 import sys
@@ -16,11 +16,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # para importar 'star'
 
+# Importar 'star' primero: comprueba que numpy y matplotlib están instalados
+from star import config, estilo_star, guardar_figura  # noqa: E402
+
 import numpy as np  # noqa: E402
 import matplotlib.pyplot as plt  # noqa: E402
 from matplotlib.collections import LineCollection  # noqa: E402
-
-from star import config, estilo_star, guardar_figura  # noqa: E402
 
 # =====================================================================
 #  PARÁMETROS  ->  ¡Modifica esto!

@@ -8,23 +8,32 @@ Así cada cambio que hagas se *ve*, y es fácil comparar versiones, revisar Pull
 
 ## Qué necesitas (Windows)
 
-| Programa | Para qué | Descarga |
-|----------|----------|----------|
-| **GitHub Desktop** | Trabajar con Git sin usar la terminal | <https://desktop.github.com> |
-| **Python 3.10 o superior** | Ejecutar las pruebas. Marca **"Add python.exe to PATH"** al instalar | <https://www.python.org/downloads/> |
-| **Visual Studio Code** + extensión **Python** | Editar archivos, ejecutar scripts y resolver conflictos | <https://code.visualstudio.com> |
+| Programa | Para qué |
+|----------|----------|
+| **GitHub Desktop** | Trabajar con Git sin usar la terminal |
+| **Python 3.10 o superior** | Ejecutar las pruebas |
+| **Visual Studio Code** + extensión **Python** | Editar archivos, ejecutar scripts y resolver conflictos |
+| `numpy` y `matplotlib` | Librerías que usan los scripts |
 
 Y una cuenta de GitHub.
 
+**No hace falta instalarlo a mano:** [`instalar.bat`](instalar.bat) comprueba qué tienes y
+instala lo que falte (sin permisos de administrador).
+
 ## Puesta en marcha
 
-1. En GitHub Desktop: **File → Options → Accounts → Sign in** con tu cuenta de GitHub.
-2. **File → Clone repository… → GitHub.com** → elige `star-uma/curso_basico_git` → **Clone**.
-3. **Repository → Show in Explorer** y haz doble clic en:
-   - `instalar.bat` (solo la primera vez): instala `numpy` y `matplotlib`.
-   - `ejecutar_todo.bat`: ejecuta todas las pruebas y abre la carpeta `output/` con las imágenes.
-4. Para trabajar: **Repository → Open in Visual Studio Code**. Abre cualquier script de `pruebas/`
+1. **Antes del curso**, abre [`instalar.bat`](instalar.bat) aquí en GitHub, pulsa el botón
+   **Download raw file** (la flecha hacia abajo) y haz doble clic en el archivo descargado.
+   - Si Windows muestra *"Windows protegió su PC"*, pulsa **Más información → Ejecutar de todas formas**.
+   - Al final aparece un resumen: todo debe poner `OK`.
+2. Abre GitHub Desktop: **File → Options → Accounts → Sign in** con tu cuenta de GitHub.
+3. **File → Clone repository… → GitHub.com** → elige `star-uma/curso_basico_git` → **Clone**.
+4. **Repository → Show in Explorer** y haz doble clic en `ejecutar_todo.bat`: ejecuta todas las
+   pruebas y abre la carpeta `output/` con las imágenes.
+5. Para trabajar: **Repository → Open in Visual Studio Code**. Abre cualquier script de `pruebas/`
    y pulsa ▶ (*Run Python File*). La imagen se guarda en `output/` y VS Code la puede mostrar.
+
+Si algo falla, también puedes volver a ejecutar `instalar.bat` desde la carpeta del repositorio.
 
 La carpeta `output/` **no** se sube a GitHub (está en `.gitignore`), por eso no aparece en GitHub Desktop.
 
@@ -57,7 +66,7 @@ curso_basico_git/
 │   └── 06_galeria_robots/
 │       └── participantes/ # aquí cada uno añade su robot
 ├── .github/               # plantillas de issues / PR y GitHub Actions
-├── instalar.bat           # doble clic: instala las librerías
+├── instalar.bat           # doble clic: instala GitHub Desktop, Python, VS Code y librerías
 ├── ejecutar_todo.bat      # doble clic: ejecuta todas las pruebas
 ├── run_all.py
 └── requirements.txt
