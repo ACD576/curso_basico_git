@@ -81,5 +81,3 @@ Cada script tiene arriba una sección **PARÁMETROS** con lo que se puede modifi
 - Nombres de rama: `tipo/usuario-descripcion`, por ejemplo `galeria/pepe-robot` o `fix/ana-mapa`.
 - Mensajes de commit cortos y en imperativo: *"Añade obstáculo en la sala"*.
 - No subas la carpeta `output/` ni archivos generados.
-
-Prueba main
